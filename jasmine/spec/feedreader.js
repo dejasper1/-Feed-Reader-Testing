@@ -46,7 +46,7 @@ $(function () {
         });
 
         it('loadfeed > 0 entries', function () {
-            expect(document.querySelector('.feed')).toBeDefined();
+            expect(document.querySelector('.feed').children.length).toBeGreaterThan(0);
         });
     });
 
@@ -59,7 +59,7 @@ $(function () {
             });
         });
         it('feed comparison', function () {
-            expect(document.querySelector('.feed')).not.toBe(initFeed)
+            expect(document.querySelector('.feed').innerHTML).not.toBe(initFeed)
         });
     });
 }());
