@@ -1,7 +1,7 @@
 # Feed Reader
 
 ## Description 
-The project objective was to utilize "test-driven development" or TDD on a web based RSS feed application using the Jasmine framework. 
+The project objective was to utilize "test-driven development" or TDD on a web based RSS feed application using the Jasmine framework, release version 2.1.2. 
 
 The path for test file: jasmine/spec/feedreader.js. 
 
