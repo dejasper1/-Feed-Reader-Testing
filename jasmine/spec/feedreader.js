@@ -46,7 +46,8 @@ $(function () {
         });
 
         it('loadfeed > 0 entries', function () {
-            expect(document.querySelector('.feed').children.length).toBeGreaterThan(0);
+            const entries = document.querySelector('.feed').querySelectorAll('.entry').length;
+            expect(entries).toBeGreaterThan(0);
         });
     });
 
